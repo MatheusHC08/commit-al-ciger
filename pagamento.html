@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Inicial - Loja de Tênis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body.p">
+  <nav>
+    <div class="navbar">
+      <div class="container nav-container">
+          <input class="checkbox" type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>  
+        <div class="logo">
+          <h1>Navbar</h1>
+        </div>
+        <div class="menu-items">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div>
+    <h1 class="centralizado"s>Pagamento</h1>
+        <form class="pagamento" action="/processar-pagamento" method="post">
+            <label for="nome-cartao">Nome no Cartão:</label>
+            <input class="input-pagamento" type="text" id="nome-cartao" name="nome-cartao" required><br>
+      
+            <label for="numero-cartao">Número do Cartão:</label>
+            <input class="input-pagamento" type="text" id="numero-cartao" name="numero-cartao" required><br>
+      
+            <label for="validade-cartao">Validade:</label>
+            <input class="input-pagamento-menor" type="text" id="validade-cartao" name="validade-cartao" placeholder="MM/YY" required><br>
+      
+            <label for="cvv-cartao">CVV:</label>
+            <input class="input-pagamento-menor" type="text" id="cvv-cartao" name="cvv-cartao" required><br>
+      
+            <input class="input-pagamento-menor" type="submit" value="Pagar">
+        </form>
+  </div>
+  <footer>
+    <!-- Rodapé do site -->
+    <p>© 2023 Loja de Tênis. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>  
