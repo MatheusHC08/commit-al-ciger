@@ -339,6 +339,17 @@ O objetivo do site de vendas de tênis é fornecer uma plataforma online para co
 
 O site de vendas de tênis será uma plataforma completa para a compra de tênis pela internet, proporcionando um processo de compra eficiente e seguro para seus usuários. O design e a usabilidade do site terão grande importância para a atração de clientes, garantindo sua fidelização a longo prazo. 
 
- 
+
+
+
+
+
+
+
+
+
+ Olá meu nome é Matheus Winter;
+ Participo desta equipe fazendo: Mapa do site, e auxiliando nas demais partes.
+
 
 
